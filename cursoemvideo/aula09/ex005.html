@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM</title>
+        <style>
+            body{
+                background: rgb(68, 125, 199);
+                color: #ffffff;
+                font:normal 18pt Arial;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Iniciando com DOM</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam quibusdam ratione modi laboriosam iusto eius pariatur est corrupti, voluptas minus,
+            repellat doloremque quod voluptatem facilis quidem accusantium reprehenderit. Alias, vel!</p>
+
+        <p>Aprendendo <strong>DOM</strong> em Java Script</p>
+
+        <div id="msg">Clique em mim</div>
+
+        <script>
+            
+            //document.write(document.URL)
+            
+            /*
+            var p1 = document.getElementsByTagName("p")[1]
+            document.write(p1.innerText)
+            */
+            
+            /*
+            var d = document.getElementById("msg")
+            d.innerHTML = "<strong>NAO</strong> clique em mim"
+            d.style.background = 'grey'
+            */
+
+            var y = document.querySelector('div#msg')
+            y.style.background = 'pink'
+
+            /*
+            var corpo = document.body
+            corpo.style.background = "pink"
+            */
+        </script>
+    </body>
+
+</html>
