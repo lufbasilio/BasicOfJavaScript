@@ -16,15 +16,15 @@
         <span id="res">Resultado</span>
 
         <script>
-            var btn = document.querySelector('input#soma')
+            const btn = document.querySelector('input#soma')
             btn.addEventListener('click', somar)
 
             function somar(){
-                var n1 = Number(document.querySelector('input#n1').value)
-                var n2 = Number(document.querySelector('input#n2').value)
-                var res = document.querySelector('span#res')
-                var s = n1 + n2
-                res.innerHTML= `O resultado de ${n1} + ${n2} e <strong>${s}</strong>`
+                const res = document.querySelector('span#res')
+                let n1 = Number(document.querySelector('input#n1').value)
+                let n2 = Number(document.querySelector('input#n2').value)
+                let s = n1 + n2
+                res.innerHTML= `O resultado de ${n1} + ${n2} = <strong>${s}</strong>`
             }
         </script>
     </body>
