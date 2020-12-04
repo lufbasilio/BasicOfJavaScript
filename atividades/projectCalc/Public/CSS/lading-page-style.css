@@ -1,0 +1,48 @@
+body{
+    background-color: #7aa5f5;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.form-control{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
